@@ -1,6 +1,6 @@
 # Portfolio Project Plan
 
-> Living document — updated as the project progresses.
+> Living document - updated as the project progresses.
 > Last updated: 2026-04-10
 
 ---
@@ -13,25 +13,25 @@ Build a professional online portfolio for a Software Lead QA Engineer with 18+ y
 
 ## Key Decisions
 
-| Decision | Choice | Rationale |
-|----------|--------|-----------|
-| Tech stack | Next.js + Tailwind CSS + TypeScript | Same stack as reference site (brittanychiang.com), strong ecosystem, easy deployment |
-| Design style | Clean & Professional | Strong typography, card-based layouts, subtle animations, professional palette |
-| Color scheme | Dark theme — navy (#0f172a) bg, teal (#5eead4) accent | Inspired by brittanychiang.com but distinct |
-| Font | Inter (Google Fonts) | Modern, highly readable sans-serif |
-| Layout | Split panel — sticky left nav + scrollable right content | Matches reference site pattern, excellent for single-page portfolios |
-| Icons | Lucide React + custom SVGs for LinkedIn/GitHub | Lucide dropped brand icons, so social icons are inline SVGs |
-| Content approach | Placeholder text first, replace later | Get visual draft up fast, iterate on content separately |
-| Contact method | Links only (LinkedIn, GitHub, Email) | No contact form — keep it simple |
-| Hosting | TBD | Will decide after visual draft is finalized |
+| Decision         | Choice                                                   | Rationale                                                                            |
+| ---------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Tech stack       | Next.js + Tailwind CSS + TypeScript                      | Same stack as reference site (brittanychiang.com), strong ecosystem, easy deployment |
+| Design style     | Clean & Professional                                     | Strong typography, card-based layouts, subtle animations, professional palette       |
+| Color scheme     | Dark theme - navy (#0f172a) bg, teal (#5eead4) accent    | Inspired by brittanychiang.com but distinct                                          |
+| Font             | Inter (Google Fonts)                                     | Modern, highly readable sans-serif                                                   |
+| Layout           | Split panel - sticky left nav + scrollable right content | Matches reference site pattern, excellent for single-page portfolios                 |
+| Icons            | Lucide React + custom SVGs for LinkedIn/GitHub           | Lucide dropped brand icons, so social icons are inline SVGs                          |
+| Content approach | Placeholder text first, replace later                    | Get visual draft up fast, iterate on content separately                              |
+| Contact method   | Links only (LinkedIn, GitHub, Email)                     | No contact form - keep it simple                                                     |
+| Hosting          | TBD                                                      | Will decide after visual draft is finalized                                          |
 
 ### Reference Portfolios Studied
 
-- **brittanychiang.com** — Primary inspiration. Clean, professional, excellent section structure. (Next.js + Tailwind)
-- **brd.mn** (Philip Boardman) — Starting reference point. Too minimal for our needs but good baseline.
-- **mattfarley.ca** — Strong card-based layout
-- **leerob.io** — Minimalist with strong blog/content integration
-- **sarahdrasnerdesign.com** — Leadership + technical depth presentation
+- **brittanychiang.com** - Primary inspiration. Clean, professional, excellent section structure. (Next.js + Tailwind)
+- **brd.mn** (Philip Boardman) - Starting reference point. Too minimal for our needs but good baseline.
+- **mattfarley.ca** - Strong card-based layout
+- **leerob.io** - Minimalist with strong blog/content integration
+- **sarahdrasnerdesign.com** - Leadership + technical depth presentation
 
 ---
 
@@ -73,12 +73,12 @@ personal-portfolio/
 - [x] Built split-panel layout (sticky left + scrollable right)
 - [x] Built Header component with scroll-based active section highlighting (Intersection Observer)
 - [x] Built mobile responsive menu (hamburger toggle)
-- [x] Built Stats section — 4 metric cards with hover glow
-- [x] Built About section — 3 paragraphs placeholder narrative
-- [x] Built Skills & Tools Matrix — 6 categories with skill chips
-- [x] Built Case Studies section — 3 cards with context/challenge/impact
-- [x] Built Experience timeline — 4 career entries with tech tags
-- [x] Built Articles section — 4 entries with date, summary, topic tags
+- [x] Built Stats section - 4 metric cards with hover glow
+- [x] Built About section - 3 paragraphs placeholder narrative
+- [x] Built Skills & Tools Matrix - 6 categories with skill chips
+- [x] Built Case Studies section - 3 cards with context/challenge/impact
+- [x] Built Experience timeline - 4 career entries with tech tags
+- [x] Built Articles section - 4 entries with date, summary, topic tags
 - [x] Built Footer with attribution
 - [x] Dark theme with navy/teal color scheme
 - [x] Smooth scroll navigation
@@ -97,7 +97,7 @@ personal-portfolio/
 - [ ] Add scroll-triggered fade-in animations for sections
 - [ ] Improve mobile layout and touch interactions
 - [ ] Add dark/light mode toggle
-- [ ] Accessibility audit (WCAG AA — important for a QA professional's portfolio)
+- [ ] Accessibility audit (WCAG AA - important for a QA professional's portfolio)
 
 ### Phase 3: Content Replacement
 
@@ -135,7 +135,7 @@ personal-portfolio/
 - [ ] Optimize images (next/image, WebP)
 - [ ] Add sitemap.xml
 - [ ] Add robots.txt
-- [ ] Lighthouse audit — target 95+ on all metrics
+- [ ] Lighthouse audit - target 95+ on all metrics
 
 ### Phase 7: Deployment
 
@@ -158,18 +158,18 @@ personal-portfolio/
 
 All placeholder content lives in `data/portfolio-data.ts`. Edit this single file to replace:
 
-| Field | Current Value | Status |
-|-------|--------------|--------|
-| Name | John Das | Placeholder |
-| Title | Software Lead QA Engineer | Review |
-| Tagline | "18+ years building quality..." | Placeholder |
-| Email | john.doe@example.com | Placeholder |
-| LinkedIn URL | linkedin.com/in/johndoe | Placeholder |
-| GitHub URL | github.com/johndoe | Placeholder |
-| Resume URL | # | Not set |
-| Stats (4 metrics) | 18+, 12, 60%, 50M+ | Placeholder |
-| About paragraphs | 3 paragraphs | Placeholder |
-| Skills (6 categories) | Various tools listed | Review |
-| Case Studies (3) | Fictional scenarios | Placeholder |
-| Experience (4 roles) | Fictional companies | Placeholder |
-| Articles (4) | Fictional articles | Placeholder |
+| Field                 | Current Value                   | Status      |
+| --------------------- | ------------------------------- | ----------- |
+| Name                  | John Das                        | Placeholder |
+| Title                 | Software Lead QA Engineer       | Review      |
+| Tagline               | "18+ years building quality..." | Placeholder |
+| Email                 | john.doe@example.com            | Placeholder |
+| LinkedIn URL          | linkedin.com/in/johndoe         | Placeholder |
+| GitHub URL            | github.com/johndoe              | Placeholder |
+| Resume URL            | #                               | Not set     |
+| Stats (4 metrics)     | 18+, 12, 60%, 50M+              | Placeholder |
+| About paragraphs      | 3 paragraphs                    | Placeholder |
+| Skills (6 categories) | Various tools listed            | Review      |
+| Case Studies (3)      | Fictional scenarios             | Placeholder |
+| Experience (4 roles)  | Fictional companies             | Placeholder |
+| Articles (4)          | Fictional articles              | Placeholder |

@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: 'Abhi Das',
-  title: 'Lead QA Automation & Platform Engineer',
+  title: 'Lead QA Engineer',
   tagline:
     '18+ years building quality into software across sports streaming, retail analytics, construction safety, and fintech. I architect automation frameworks from scratch, build CI/CD pipelines, and lead QA teams that ship confidently.',
   linkedin: 'https://www.linkedin.com/in/abhidp/',
@@ -16,8 +16,8 @@ export const stats = [
 ]
 
 export const aboutParagraphs = [
-  "I'm a Lead QA Automation Engineer and Platform Engineer who has spent nearly two decades ensuring that software doesn't just work — it works at scale, under pressure, and without surprises. From ensuring platform stability during the FIFA Women's World Cup 2023 to saving USD 40K annually through infrastructure optimisation, I've consistently delivered measurable business impact across billion-dollar enterprises and high-growth startups.",
-  "My philosophy is simple: quality is not a phase — it's a culture. I champion shift-left testing, automation-first strategies, and cross-functional collaboration that catches defects before they become disasters. I've built test automation frameworks from scratch across Web, API, Mobile, and Performance — and I've led and mentored QA teams of up to 7 engineers to operate autonomously on complex projects.",
+  "I'm a Lead QA Automation Engineer and Platform Engineer who has spent nearly two decades ensuring that software doesn't just work - it works at scale, under pressure, and without surprises. From ensuring platform stability during the FIFA Women's World Cup 2023 to saving USD 40K annually through infrastructure optimisation, I've consistently delivered measurable business impact across billion-dollar enterprises and high-growth startups.",
+  "My philosophy is simple: quality is not a phase - it's a culture. I champion shift-left testing, automation-first strategies, and cross-functional collaboration that catches defects before they become disasters. I've built test automation frameworks from scratch across Web, API, Mobile, and Performance - and I've led and mentored QA teams of up to 7 engineers to operate autonomously on complex projects.",
   "I'm also an AI enthusiast with hands-on experience in agentic coding tools, actively upskilling in AI/LLM testing frameworks including DeepEval and RAGAS. When I'm not breaking software professionally, you'll find me exploring the evolving landscape of quality engineering and sharing what I learn with the community."
 ]
 
@@ -105,7 +105,7 @@ export const caseStudies = [
 
 export const experience = [
   {
-    dateRange: 'Jan 2025 — Mar 2026',
+    dateRange: 'Jan 2025 - Mar 2026',
     company: 'Zitcha',
     logo: '/logos/zitcha.jpeg',
     initials: 'Z',
@@ -122,7 +122,7 @@ export const experience = [
     current: false
   },
   {
-    dateRange: 'Feb 2024 — Jan 2025',
+    dateRange: 'Feb 2024 - Jan 2025',
     company: 'Quantium',
     logo: '/logos/quantium.jpeg',
     initials: 'Q',
@@ -133,7 +133,7 @@ export const experience = [
     current: false
   },
   {
-    dateRange: 'Sep 2022 — Feb 2024',
+    dateRange: 'Sep 2022 - Feb 2024',
     company: 'Optus Sport',
     logo: '/logos/optus-sport.jpeg',
     initials: 'OS',
@@ -144,7 +144,7 @@ export const experience = [
     current: false
   },
   {
-    dateRange: 'Oct 2020 — Sep 2022',
+    dateRange: 'Oct 2020 - Sep 2022',
     company: 'SafetyCulture',
     logo: '/logos/safetyculture.jpeg',
     initials: 'SC',
@@ -161,7 +161,7 @@ export const experience = [
     current: false
   },
   {
-    dateRange: 'Jul 2019 — Jun 2020',
+    dateRange: 'Jul 2019 - Jun 2020',
     company: 'MYOB',
     logo: '/logos/myob.jpeg',
     initials: 'M',
@@ -178,7 +178,7 @@ export const experience = [
     current: false
   },
   {
-    dateRange: 'Jun 2017 — Jul 2019',
+    dateRange: 'Jun 2017 - Jul 2019',
     company: 'Deltatre (acquired Massive)',
     logo: '/logos/deltatre.jpeg',
     initials: 'D',
@@ -189,7 +189,7 @@ export const experience = [
     current: false
   },
   {
-    dateRange: 'Nov 2010 — May 2017',
+    dateRange: 'Nov 2010 - May 2017',
     company: 'Oracle India',
     logo: '/logos/oracle.jpeg',
     initials: 'O',
@@ -205,11 +205,11 @@ export const experience = [
     current: false
   },
   {
-    dateRange: 'May 2007 — Oct 2010',
+    dateRange: 'May 2007 - Oct 2010',
     company: 'ADP India',
     logo: '/logos/adp.jpeg',
     initials: 'ADP',
-    role: 'Senior Member — Technical',
+    role: 'Senior Member - Technical',
     description:
       'Started professional career in quality assurance at a global HR technology company. Gained foundational experience in software testing methodologies, defect lifecycle management, and cross-functional collaboration across engineering teams.',
     technologies: [
@@ -258,7 +258,7 @@ export const articles = [
     title: 'Building Quality Culture: It Starts with the Standup',
     readTime: '6 min read',
     summary:
-      "Quality isn't a department — it's a mindset. How small changes to your daily ceremonies can transform how your entire team thinks about bugs.",
+      "Quality isn't a department - it's a mindset. How small changes to your daily ceremonies can transform how your entire team thinks about bugs.",
     tag: 'Leadership',
     url: '#'
   }
