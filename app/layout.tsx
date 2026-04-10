@@ -8,7 +8,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Portfolio — Software Lead QA Engineer',
+  title: 'Abhi Das — Lead QA Automation & Platform Engineer',
   description:
     '18+ years building quality into software across Fortune 500 companies and high-growth startups.'
 }
