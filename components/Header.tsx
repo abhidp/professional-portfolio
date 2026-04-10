@@ -2,7 +2,37 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { personalInfo } from '@/data/portfolio-data'
-import { FileDown, Menu, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
+
+function ResumeIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      xmlns='http://www.w3.org/2000/svg'
+      viewBox='0 0 24 24'
+      fill='none'
+      stroke='currentColor'
+      strokeWidth='1.8'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+    >
+      <path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z' />
+      <polyline points='14 2 14 8 20 8' />
+      <text
+        x='12'
+        y='16.5'
+        textAnchor='middle'
+        fill='currentColor'
+        stroke='none'
+        fontSize='9'
+        fontWeight='700'
+        fontFamily='system-ui, sans-serif'
+      >
+        CV
+      </text>
+    </svg>
+  )
+}
 
 function LinkedinIcon({ className }: { className?: string }) {
   return (
@@ -33,8 +63,8 @@ function GithubIcon({ className }: { className?: string }) {
 const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Case Studies', href: '#case-studies' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Case Studies', href: '#case-studies' },
   { label: 'Articles', href: '#articles' }
 ]
 
@@ -115,7 +145,7 @@ export default function Header() {
   }, [mobileMenuOpen])
 
   return (
-    <header className='lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24 py-12 px-6'>
+    <header className='lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[35%] lg:flex-col lg:justify-between lg:py-24 py-12 px-6'>
       <button
         className='lg:hidden fixed top-4 right-4 z-50 p-2 rounded-lg bg-card-bg backdrop-blur-sm border border-card-border'
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -217,7 +247,7 @@ export default function Header() {
           className='text-text-muted hover:text-accent transition-colors'
           aria-label='Download Resume'
         >
-          <FileDown className='w-5 h-5' />
+          <ResumeIcon className='w-5 h-5' />
         </a>
       </div>
     </header>
