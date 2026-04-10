@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { personalInfo } from '@/data/portfolio-data'
-import { Mail, FileDown, Menu, X } from 'lucide-react'
+import { FileDown, Menu, X } from 'lucide-react'
 
 function LinkedinIcon({ className }: { className?: string }) {
   return (
@@ -211,13 +211,6 @@ export default function Header() {
           aria-label='GitHub'
         >
           <GithubIcon className='w-5 h-5' />
-        </a>
-        <a
-          href={`mailto:${personalInfo.email}`}
-          className='text-text-muted hover:text-accent transition-colors'
-          aria-label='Email'
-        >
-          <Mail className='w-5 h-5' />
         </a>
         <a
           href={personalInfo.resumeUrl}

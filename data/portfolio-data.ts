@@ -1,148 +1,222 @@
 export const personalInfo = {
-  name: 'John Das',
-  title: 'Software Lead QA Engineer',
+  name: 'Abhi Das',
+  title: 'Lead QA Automation & Platform Engineer',
   tagline:
-    '18+ years building quality into software across Fortune 500 companies and high-growth startups. I lead QA teams that ship confidently — fewer bugs, faster releases, happier users.',
-  email: 'john.doe@example.com',
-  linkedin: 'https://linkedin.com/in/johndoe',
-  github: 'https://github.com/johndoe',
-  resumeUrl: '#'
+    '18+ years building quality into software across sports streaming, retail analytics, construction safety, and fintech. I architect automation frameworks from scratch, build CI/CD pipelines, and lead QA teams that ship confidently.',
+  linkedin: 'https://www.linkedin.com/in/abhidp/',
+  github: 'https://github.com/abhidp',
+  resumeUrl: '/Abhi_Das_Lead_QA_Engineer.pdf'
 }
 
 export const stats = [
   { label: 'Years Experience', value: '18+' },
-  { label: 'Companies', value: '12' },
-  { label: 'Defect Reduction', value: '60%' },
-  { label: 'Users Impacted', value: '50M+' }
+  { label: 'Teams Led (up to)', value: '7' },
+  { label: 'Annual Cost Saved', value: '$40K' },
+  { label: 'Onboarding Time Cut', value: '95%' }
 ]
 
 export const aboutParagraphs = [
-  "I'm a Software Lead QA Engineer who has spent nearly two decades ensuring that software doesn't just work — it works beautifully. From billion-dollar enterprises to scrappy startups racing to product-market fit, I've built and led QA teams that transform how organizations think about quality.",
-  "My philosophy is simple: quality is not a phase — it's a culture. I champion shift-left testing, automation-first strategies, and cross-functional collaboration that catches defects before they become disasters. I've built test automation frameworks from scratch, implemented CI/CD quality gates, and mentored dozens of engineers along the way.",
-  "When I'm not breaking software professionally, you'll find me exploring new testing tools, contributing to QA communities, and writing about the evolving landscape of software quality engineering."
+  "I'm a Lead QA Automation Engineer and Platform Engineer who has spent nearly two decades ensuring that software doesn't just work — it works at scale, under pressure, and without surprises. From ensuring platform stability during the FIFA Women's World Cup 2023 to saving USD 40K annually through infrastructure optimisation, I've consistently delivered measurable business impact across billion-dollar enterprises and high-growth startups.",
+  "My philosophy is simple: quality is not a phase — it's a culture. I champion shift-left testing, automation-first strategies, and cross-functional collaboration that catches defects before they become disasters. I've built test automation frameworks from scratch across Web, API, Mobile, and Performance — and I've led and mentored QA teams of up to 7 engineers to operate autonomously on complex projects.",
+  "I'm also an AI enthusiast with hands-on experience in agentic coding tools, actively upskilling in AI/LLM testing frameworks including DeepEval and RAGAS. When I'm not breaking software professionally, you'll find me exploring the evolving landscape of quality engineering and sharing what I learn with the community."
 ]
 
 export const skillCategories = [
   {
-    title: 'Testing Types',
+    title: 'Programming',
+    skills: ['JavaScript', 'TypeScript', 'Node.js', 'Python', 'Shell Scripting']
+  },
+  {
+    title: 'Frontend & E2E Testing',
+    skills: ['Playwright', 'Cypress', 'WebDriverIO', 'Selenium', 'Appium']
+  },
+  {
+    title: 'API & Contract Testing',
     skills: [
-      'Functional',
-      'Performance',
-      'Security',
-      'Accessibility',
-      'API',
-      'Mobile',
-      'E2E',
-      'Regression'
+      'REST',
+      'GraphQL',
+      'gRPC',
+      'Postman/Newman',
+      'Schemathesis',
+      'Pact'
     ]
   },
   {
-    title: 'Automation Tools',
-    skills: [
-      'Selenium',
-      'Cypress',
-      'Playwright',
-      'Appium',
-      'REST Assured',
-      'k6',
-      'JMeter'
-    ]
+    title: 'Performance & Accessibility',
+    skills: ['K6', 'JMeter', 'Artillery', 'axe-core', 'WCAG 2.1']
   },
   {
-    title: 'CI/CD & DevOps',
+    title: 'CI/CD & Cloud',
     skills: [
-      'Jenkins',
       'GitHub Actions',
+      'Bitbucket Pipelines',
+      'CircleCI',
+      'Buildkite',
       'Docker',
+      'Kubernetes (CKAD)',
+      'Terraform',
       'AWS',
-      'Azure DevOps',
-      'CircleCI'
+      'GCP'
     ]
   },
   {
-    title: 'Test Management',
-    skills: ['Jira', 'TestRail', 'Zephyr', 'qTest', 'Xray', 'Allure']
-  },
-  {
-    title: 'Languages',
+    title: 'AI & LLM Testing',
     skills: [
-      'Python',
-      'Java',
-      'JavaScript',
-      'TypeScript',
-      'SQL',
-      'Shell Scripting'
+      'DeepEval',
+      'RAGAS',
+      'LangChain',
+      'ChromaDB',
+      'Claude Code',
+      'Ollama',
+      'MCP Servers'
     ]
-  },
-  {
-    title: 'Methodologies',
-    skills: ['Agile', 'Scrum', 'Kanban', 'SAFe', 'TDD', 'BDD', 'Shift-Left']
   }
 ]
 
 export const caseStudies = [
   {
-    title: 'Building a Test Automation Framework from Zero to 80% Coverage',
-    context: 'FinTech · Series C Startup · Team of 8',
+    title: "Ensuring Platform Stability for the FIFA Women's World Cup 2023",
+    context: 'Optus Sport · Sports Streaming · Millions of Concurrent Viewers',
     challenge:
-      'The company had zero automated tests and was shipping with 3-day manual regression cycles that delayed every release.',
+      'A major live sporting event in Australia demanded flawless streaming performance. The platform needed to handle peak concurrent viewership without degradation during high-stakes matches.',
     impact:
-      '80% automated coverage · Release cycle reduced from 2 weeks to 2 days',
-    tags: ['Automation', 'Playwright', 'CI/CD']
+      'Zero critical incidents during tournament · Platform handled peak concurrent load · Bottlenecks identified and resolved pre-launch',
+    tags: ['Performance', 'K6', 'Streaming', 'AWS']
   },
   {
-    title: 'Preventing a Launch-Day Disaster Through Performance Testing',
-    context: 'E-Commerce · Fortune 500 · 30M+ Users',
+    title: 'Cutting Developer Onboarding from 4 Hours to 10 Minutes',
+    context: 'Zitcha · Retail AdTech SaaS · 4 Repositories',
     challenge:
-      'A major product relaunch was at risk — load testing revealed the checkout service would fail at 40% of expected Black Friday traffic.',
-    impact: 'Zero downtime on launch day · Handled 2x projected traffic',
-    tags: ['Performance', 'k6', 'AWS']
+      'New developers needed 3-4 hours and peer assistance to set up their local environment across 4 repositories. This wasted engineering time and created dependency on senior team members.',
+    impact:
+      '95% reduction in setup time · Zero peer assistance needed · Instant environment resets enabled',
+    tags: ['Platform Engineering', 'Automation', 'DX']
   },
   {
-    title: 'Leading a QA Transformation: Manual to Automation-First',
-    context: 'Healthcare SaaS · Enterprise · Team of 15',
+    title: 'Saving $40K/Year by Eliminating a Paid Testing Subscription',
+    context: 'SafetyCulture · Construction Safety SaaS · Team of 7',
     challenge:
-      'A 15-person QA team was 100% manual, causing a 6-week regression backlog and frequent production incidents.',
-    impact: '70% reduction in production defects · Team velocity doubled',
-    tags: ['Leadership', 'Strategy', 'Selenium']
+      'The QA team relied on a paid Cypress Cloud subscription for parallel test execution. With 7 engineers running E2E tests, the annual cost was significant and the dependency created vendor lock-in.',
+    impact:
+      'USD 40K annual cost saving · Containerised parallel E2E in CI · Eliminated vendor dependency',
+    tags: ['CI/CD', 'Docker', 'Cost Optimisation']
   }
 ]
 
 export const experience = [
   {
-    dateRange: '2021 — Present',
-    company: 'TechCorp Global',
+    dateRange: 'Jan 2025 — Mar 2026',
+    company: 'Zitcha',
+    logo: '/logos/zitcha.jpeg',
+    initials: 'Z',
+    role: 'Senior QA & Platform Engineer',
+    description:
+      'Architected E2E test frameworks with Playwright directly into build pipelines, enforcing quality gates that block merges on failure. Engineered single-script developer environment setup across 4 repos, cutting onboarding from 4 hours to 10 minutes. Implemented contract testing with Schemathesis and remediated compliance tests in Vanta via Terraform.',
+    technologies: [
+      'Playwright',
+      'TypeScript',
+      'Terraform',
+      'Schemathesis',
+      'Datadog'
+    ],
+    current: false
+  },
+  {
+    dateRange: 'Feb 2024 — Jan 2025',
+    company: 'Quantium',
+    logo: '/logos/quantium.jpeg',
+    initials: 'Q',
     role: 'Lead QA Engineer',
     description:
-      'Leading a cross-functional QA team of 12 across 3 product lines. Architected the company-wide test automation strategy and built the CI/CD quality gates that reduced production incidents by 65%.',
-    technologies: ['Playwright', 'TypeScript', 'GitHub Actions', 'AWS'],
-    current: true
+      'Established QA culture and automated testing from zero across multiple engineering teams. Built automation frameworks from scratch using Cypress, Playwright, and custom solutions for REST and gRPC services. Created K6 performance testing frameworks for peak retail events (Black Friday, Christmas). Won the Quantium AI Expedition competition.',
+    technologies: ['Cypress', 'Playwright', 'K6', 'gRPC', 'SonarQube'],
+    current: false
   },
   {
-    dateRange: '2018 — 2021',
-    company: 'ScaleUp Inc.',
+    dateRange: 'Sep 2022 — Feb 2024',
+    company: 'Optus Sport',
+    logo: '/logos/optus-sport.jpeg',
+    initials: 'OS',
+    role: 'Lead Test Automation Engineer',
+    description:
+      "Developed all automation frameworks from scratch: 70% backend (Node.js, AWS Lambda/S3/DynamoDB, Serverless) and 30% frontend (Playwright). Conducted performance testing with K6 for FIFA Women's World Cup 2023. Built dedicated APIs for on-demand test data generation, saving significant time for manual testers and developers.",
+    technologies: ['Playwright', 'Node.js', 'K6', 'AWS Lambda', 'Serverless'],
+    current: false
+  },
+  {
+    dateRange: 'Oct 2020 — Sep 2022',
+    company: 'SafetyCulture',
+    logo: '/logos/safetyculture.jpeg',
+    initials: 'SC',
+    role: 'Lead QA Engineer',
+    description:
+      'Led and managed a team of 7 QA Engineers in a construction safety SaaS environment. Containerised E2E tests for parallel CI execution, saving USD 40K/year. Integrated CI/CD with Slack for real-time test failure notifications. Established testing-in-production strategy with pre-deployment gates and hourly post-deployment health monitoring.',
+    technologies: [
+      'Cypress',
+      'Docker',
+      'CI/CD',
+      'Slack Integration',
+      'Datadog'
+    ],
+    current: false
+  },
+  {
+    dateRange: 'Jul 2019 — Jun 2020',
+    company: 'MYOB',
+    logo: '/logos/myob.jpeg',
+    initials: 'M',
     role: 'Senior QA Engineer',
     description:
-      'Owned the QA strategy for a high-growth fintech platform processing $2B+ annually. Built the performance testing infrastructure and led the shift-left initiative that halved defect escape rate.',
-    technologies: ['Cypress', 'k6', 'Jenkins', 'Python'],
+      'Championed Test-Driven Development adoption across the organisation. Created and maintained E2E tests using Selenium WebDriverIO with TypeScript and API/GraphQL automation across web and mobile platforms.',
+    technologies: [
+      'WebDriverIO',
+      'TypeScript',
+      'Selenium',
+      'GraphQL',
+      'Postman'
+    ],
     current: false
   },
   {
-    dateRange: '2014 — 2018',
-    company: 'Enterprise Solutions Ltd.',
-    role: 'QA Engineer II',
+    dateRange: 'Jun 2017 — Jul 2019',
+    company: 'Deltatre (acquired Massive)',
+    logo: '/logos/deltatre.jpeg',
+    initials: 'D',
+    role: 'Lead QA Engineer',
     description:
-      'Spearheaded automation adoption in a traditionally manual QA organization. Developed a custom Selenium framework that replaced 3 weeks of manual regression with overnight automated runs.',
-    technologies: ['Selenium', 'Java', 'TestRail', 'Docker'],
+      'Led a team of 4 QA Automation Engineers, building full-stack automation frameworks in Selenium WebDriverIO with TypeScript from scratch. Mentored junior engineers to contribute effectively to automation efforts.',
+    technologies: ['Selenium', 'WebDriverIO', 'TypeScript'],
     current: false
   },
   {
-    dateRange: '2008 — 2014',
-    company: 'StartupLab / Various',
-    role: 'QA Engineer',
+    dateRange: 'Nov 2010 — May 2017',
+    company: 'Oracle India',
+    logo: '/logos/oracle.jpeg',
+    initials: 'O',
+    role: 'Senior Software QA Engineer',
     description:
-      'Cut teeth across multiple startups and mid-size companies. Built QA processes from scratch, learned what works at scale, and developed a deep understanding of how quality engineering accelerates product delivery.',
-    technologies: ['Manual Testing', 'SQL', 'Jira', 'Agile'],
+      'Built deep QA foundations across enterprise software at scale over 6+ years. Developed expertise in testing complex enterprise systems, database validation, and quality processes that became the bedrock of a career in quality engineering.',
+    technologies: [
+      'Oracle',
+      'SQL',
+      'Enterprise Testing',
+      'Manual & Automated QA'
+    ],
+    current: false
+  },
+  {
+    dateRange: 'May 2007 — Oct 2010',
+    company: 'ADP India',
+    logo: '/logos/adp.jpeg',
+    initials: 'ADP',
+    role: 'Senior Member — Technical',
+    description:
+      'Started professional career in quality assurance at a global HR technology company. Gained foundational experience in software testing methodologies, defect lifecycle management, and cross-functional collaboration across engineering teams.',
+    technologies: [
+      'QA Fundamentals',
+      'Testing Methodologies',
+      'Defect Management'
+    ],
     current: false
   }
 ]
