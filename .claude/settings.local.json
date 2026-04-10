@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:brd.mn)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:au.linkedin.com)",
+      "WebFetch(domain:brittanychiang.com)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir=false --import-alias=\"@/*\" --use-npm)"
+    ]
+  }
+}
