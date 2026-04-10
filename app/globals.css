@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #0f172a;
@@ -9,19 +9,6 @@
   --card-border: rgba(94, 234, 212, 0.1);
   --text-muted: #94a3b8;
   --text-heading: #ccd6f6;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-accent: var(--accent);
-  --color-accent-muted: var(--accent-muted);
-  --color-card-bg: var(--card-bg);
-  --color-card-border: var(--card-border);
-  --color-text-muted: var(--text-muted);
-  --color-text-heading: var(--text-heading);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 body {
